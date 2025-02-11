@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.faceyoga"
+    namespace = "com.jawline.exercises.faceyoga"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.faceyoga"
+        applicationId = "com.jawline.exercises.faceyoga"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -25,6 +25,35 @@ android {
                 "proguard-rules.pro")
         }
     }
+
+//    signingConfigs {
+//        create("release") {
+//            storeFile = file("D:\\Multiple Email Login\\app\\multipleemaillogin.jks")
+//            storePassword = "Prince@9313"
+//            keyAlias = "key0"
+//            keyPassword = "Prince@9313"
+//        }
+//    }
+//
+//    buildTypes {
+//        getByName("debug") {
+//            manifestPlaceholders["crashlyticsCollectionEnabled"] = "false"
+//        }
+//        getByName("release") {
+//            isMinifyEnabled = true
+//            proguardFiles(
+//                getDefaultProguardFile("proguard-android-optimize.txt"),
+//                "proguard-rules.pro"
+//            )
+//            signingConfig = signingConfigs.getByName("release")
+//            manifestPlaceholders["crashlyticsCollectionEnabled"] = "true"
+//            ndk {
+//                debugSymbolLevel = "FULL"
+//            }
+//        }
+//    }
+
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8

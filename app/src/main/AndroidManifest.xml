@@ -37,7 +37,7 @@
             android:name=".ThirdQuestionActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.FirstQuestionActivity"
+            android:name=".FirstQuestionActivity"
             android:exported="false" />
         <activity
             android:name=".AgeSelectActivity"
@@ -66,15 +66,11 @@
         <activity
             android:name=".WorkoutActivity"
             android:exported="false" />
-        <activity
-            android:name=".WorkoutActivityPremium"
-            android:exported="false" />
+
         <activity
             android:name=".HomeScheduleActivity"
             android:exported="false" />
-        <activity
-            android:name=".NewUserClass"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="false" />
