@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeScheduleActivity">
+
+    <RelativeLayout
+        android:id="@+id/coordinatorLayoutExercisePremium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageViewToolbarPremium"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/iv_goodmorning" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/arrow_circle_left" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageViewToolbarPremium"
+            android:layout_marginTop="-16dp"
+            android:layout_marginBottom="-32dp"
+            android:outlineAmbientShadowColor="@color/cardShadowColor"
+            android:outlineSpotShadowColor="@color/cardShadowColor"
+            app:cardBackgroundColor="@color/bottomNavigationBackground"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="80dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bottomNavigationBackground">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvSelectedShedule"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/medium"
+                    android:lineSpacingExtra="5dp"
+                    android:text="@string/app_name"
+                    android:textColor="@color/colorText"
+                    android:textSize="22dp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvSelectedShedule"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="12dp"
+                    android:fontFamily="@font/regular"
+                    android:lineSpacingExtra="5dp"
+                    android:text="Gentle lymphatic massage techniques are used in this course to improve circulation, aiding in detoxification and reducing pufiness for a clearer, healthier."
+                    android:textColor="@color/colorText"
+                    android:textSize="13dp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvDescription"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/medium"
+                    android:lineSpacingExtra="5dp"
+                    android:text="Expected Results"
+                    android:textColor="@color/colorText"
+                    android:textSize="17dp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvResult1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvResult"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/tick"
+                    android:drawablePadding="6dp"
+                    android:fontFamily="@font/regular"
+                    android:lineSpacingExtra="5dp"
+                    android:text="Improves Circulation and detoxification"
+                    android:textColor="@color/colorText"
+                    android:textSize="13dp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvResult2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvResult1"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="15dp"
+                    android:drawableLeft="@drawable/tick"
+                    android:drawablePadding="6dp"
+                    android:fontFamily="@font/regular"
+                    android:lineSpacingExtra="5dp"
+                    android:text="Reduces neck puffiness"
+                    android:textColor="@color/colorText"
+                    android:textSize="13dp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvExercise"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tvResult2"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@android:color/transparent"
+                    android:clipToPadding="false"
+                    android:paddingBottom="70dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                <LinearLayout
+                    android:id="@+id/startExerciseButtonPremium"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginBottom="60dp"
+                    android:background="@drawable/ripple_effect_button"
+                    android:gravity="center"
+                    android:onClick="startExercisePremium"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="12dp"
+                        android:fontFamily="@font/semibold"
+                        android:text="Start"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/iv_polygon" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>

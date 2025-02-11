@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/fullFaceYogaRoutineCardView"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginLeft="20dp"
+            android:tag="@string/full_face_yoga_routine">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/fullFaceYogaRoutineImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/full_face_yoga_routine_image" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="35dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/fullFaceYogaRoutineTextView"
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentLeft="true"
+                        android:background="@drawable/bg_dayshap"
+                        android:fontFamily="@font/medium"
+                        android:gravity="center"
+                        android:letterSpacing="0.1"
+                        android:text="Day 1"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/bold"
+                    android:letterSpacing="0.1"
+                    android:text="Full Face Yoga"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_time"
+                    android:drawablePadding="5dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/medium"
+                    android:gravity="start|center"
+                    android:letterSpacing="0.1"
+                    android:text="30 min"
+                    android:visibility="gone"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="22dp"
+                android:src="@drawable/ic_video_circle" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/targetedFaceYogaRoutineTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fullFaceYogaRoutineCardView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/medium"
+            android:text="Focus Area"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <HorizontalScrollView
+            android:id="@+id/hScroolview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/targetedFaceYogaRoutineTV"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:id="@+id/targetedFaceYogaLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/softerForeheadLinesCardView"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/fa_forhead"
+                        android:tag="@string/softer_forehead_lines" />
+
+                    <ImageView
+                        android:id="@+id/eyeCirclesCardView"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:onClick="workoutSchedulePremium"
+                        android:src="@drawable/fa_eyecircle"
+                        android:tag="@string/eye_circles" />
+
+                    <ImageView
+                        android:id="@+id/browSmootherCardView"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:onClick="workoutSchedulePremium"
+                        android:src="@drawable/fa_browsmoother"
+                        android:tag="@string/brow_smoother" />
+
+                    <ImageView
+                        android:id="@+id/jawUnlockerCardView"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:onClick="workoutSchedulePremium"
+                        android:src="@drawable/fa_jawline"
+                        android:tag="@string/jaw_unlocker" />
+
+                    <ImageView
+                        android:id="@+id/neckMassageCardView"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:onClick="workoutSchedulePremium"
+                        android:src="@drawable/fa_neck"
+                        android:tag="@string/neck_massage" />
+
+                    <ImageView
+                        android:id="@+id/removeDoubleChinCardView"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:onClick="workoutSchedulePremium"
+                        android:src="@drawable/fa_doublechine"
+                        android:tag="@string/remove_double_chin" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/tvCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hScroolview"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/medium"
+            android:text="@string/categories"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <RelativeLayout
+            android:id="@+id/goodMorningFaceYogaCardView"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_below="@+id/tvCat"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="10dp"
+            android:onClick="workoutSchedulePremium"
+            android:tag="@string/good_morning_face_yoga">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/goodMorningFaceYogaImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/good_morning_image" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/semibold"
+                android:text="@string/good_morning_face_yoga"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tensionReliefFaceYogaCardView"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_below="@+id/goodMorningFaceYogaCardView"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="workoutSchedulePremium"
+            android:tag="@string/tension_relief_face_yoga">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/tensionReliefImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tension_relief_image" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/semibold"
+                android:text="@string/tension_relief_face_yoga"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/beforeBedFaceYogaCardView"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_below="@+id/tensionReliefFaceYogaCardView"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:tag="@string/before_bed_face_yoga">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/beforeBedFaceYogaImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/before_bed_image" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/semibold"
+                android:lineSpacingExtra="1.5dp"
+                android:text="@string/before_bed_face_yoga"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/faceYogaForGlowingSkinCardView"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_below="@+id/beforeBedFaceYogaCardView"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:tag="@string/face_yoga_for_glowing_skin">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/faceYogaForGlowingSkinImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/glowing_skin_image" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/semibold"
+                android:text="@string/face_yoga_for_glowing_skin"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/antiAgingFaceYogaCardView"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_below="@+id/faceYogaForGlowingSkinCardView"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginRight="10dp"
+            android:tag="@string/anti_aging_face_yoga">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/antiAgingFaceYogaImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/anti_aging_image" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/semibold"
+                android:text="@string/anti_aging_face_yoga"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/faceTappingCardView"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_below="@+id/antiAgingFaceYogaCardView"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="workoutSchedulePremium"
+            android:tag="@string/face_tapping">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/faceTappingImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/face_tapping_image" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/semibold"
+                android:lineSpacingExtra="1.5dp"
+                android:text="@string/face_tapping"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/reduceWrinklesFaceYogaCardView"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_below="@+id/faceTappingCardView"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="workoutSchedulePremium"
+            android:tag="@string/face_yoga_to_reduce_wrinkles">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/faceYogaToReduceWrinklesImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/face_yoga_to_reduce_wrinkles_imageview" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/semibold"
+                android:text="@string/face_yoga_to_reduce_wrinkles"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/elevenMinuteFaceYogaCardView"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_below="@+id/reduceWrinklesFaceYogaCardView"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="workoutSchedulePremium"
+            android:tag="@string/eleven_minute_face_yoga">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/elevenMinuteFaceYogaImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/eleve_minute_face_yoga_image" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/semibold"
+                android:lineSpacingExtra="1.5dp"
+                android:text="@string/eleven_minute_face_yoga"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/guaShaMassageCardView"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_below="@+id/elevenMinuteFaceYogaCardView"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="workoutSchedulePremium"
+            android:tag="@string/gua_sha_massage">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/guaShaMassageImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gua_sha_massage_image" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/semibold"
+                android:lineSpacingExtra="1.5dp"
+                android:text="@string/gua_sha_massage"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.FirstQuestionActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_circle_left" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_close"
+            android:src="@drawable/facialexcercise" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/everDoneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_toolbar"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="32dp"
+        android:fontFamily="@font/semibold"
+        android:text="Have You Ever Done Facial\n Exercises?"
+        android:textAlignment="center"
+        android:textColor="@color/recyclerViewTextColor"
+        android:textSize="22dp" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnContinue"
+        android:layout_below="@+id/everDoneTextView"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvRegularly"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_above="@+id/longTimeAgoButton"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="6dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ripple_effect_button_with_stroke"
+                android:fontFamily="@font/medium"
+                android:gravity="center"
+                android:text="Yes, I do regularly"
+                android:textAllCaps="false"
+                android:textColor="@color/text_light" />
+
+            <TextView
+                android:id="@+id/tvLongTime"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_above="@+id/neverButton"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="6dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ripple_effect_button_with_stroke"
+                android:fontFamily="@font/medium"
+                android:gravity="center"
+                android:text="Long time ago"
+                android:textAllCaps="false"
+                android:textColor="@color/text_light" />
+
+
+            <TextView
+                android:id="@+id/tvNever"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="6dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ripple_effect_button_with_stroke"
+                android:fontFamily="@font/medium"
+                android:gravity="center"
+                android:text="Never"
+                android:textAllCaps="false"
+                android:textColor="@color/text_light" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/ripple_effect_button"
+        android:fontFamily="@font/medium"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

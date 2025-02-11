@@ -1,0 +1,305 @@
+<resources>
+    <string name="app_name">Jawline Exercises - Face yoga</string>
+
+    <string name="Apply_Face_Serum">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/apply%20face%20serum.m4v?alt=media&amp;token=d784610b-a889-4278-aaa9-cfe2386d006d</string>
+    <string name="Back_of_the_Neck">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/back%20of%20the%20neck.m4v?alt=media&amp;token=7dddab95-fee1-43e9-80e1-5b64b813c9ed</string>
+    <string name="Blow_Up">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/blow%20up.m4v?alt=media&amp;token=bee4b4fe-c081-47bc-ae71-d7f3f0dd7c8d</string>
+    <string name="Blowfish">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/blowfish.m4v?alt=media&amp;token=03b4df55-0434-4dc3-87ed-e9f3fd445045</string>
+    <string name="Center_of_the_Neck">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/center%20of%20the%20neck.m4v?alt=media&amp;token=1e84b627-3941-4b87-a1db-a7b1f6fc729f</string>
+    <string name="Cheek_Smoother_Left_to_Right">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/cheek%20smoother%20left%20to%20right.m4v?alt=media&amp;token=a8b20a01-b86c-47d3-9ae6-96f8e9023b2c</string>
+    <string name="Cheek_Smoother_Right_to_Left">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/cheek%20smoother%20right%20to%20left.m4v?alt=media&amp;token=59c0b00a-52da-4906-81b9-6966b2963222</string>
+    <string name="Cheekbones_Massage">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/cheekbones%20massage.m4v?alt=media&amp;token=683f9107-36fd-4ab4-8408-c5a7134c49d4</string>
+    <string name="Cheeks_Smoother">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/cheeks%20smoother.m4v?alt=media&amp;token=5b78f8b7-d38f-49ef-8e25-c25aae460af1</string>
+    <string name="Cheeks_to_Temples_Left_to_Right">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/cheeks%20to%20temples%20left%20to%20right.m4v?alt=media&amp;token=d20e573f-34ba-4341-9490-2c898b533c06</string>
+    <string name="Cheeks_to_Temples_Right_to_Left">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/cheeks%20to%20temples%20right%20to%20left.m4v?alt=media&amp;token=ae5c5b20-e8b6-4b23-ad50-4bf2f9cfa31f</string>
+    <string name="Chew_Up">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/chew%20up.m4v?alt=media&amp;token=ebc28b65-d411-4f73-beb1-a0cdae730f57</string>
+    <string name="Chin_Smoother">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/chin%20smoother.m4v?alt=media&amp;token=cbaf2a40-4dee-44f7-bb90-b4d1fca0aab9</string>
+    <string name="Chin_to_Jaw_Smoother">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/chin%20to%20jaw%20smoother.m4v?alt=media&amp;token=ddb27fe2-a7e3-4255-809f-c45ec4151e2a</string>
+    <string name="Chin_to_Neck_Strokes">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/chin%20to%20neck%20strokes.m4v?alt=media&amp;token=b29ba5ff-0862-455a-9145-603745e9816b</string>
+    <string name="Circle_Around_the_Eyes">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/circle%20around%20the%20eyes.m4v?alt=media&amp;token=e77f41cb-4d19-41c9-beba-325c29dfaf1a</string>
+    <string name="Circles_on_the_Forehead">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/circles%20on%20the%20forehead.m4v?alt=media&amp;token=926e88e6-afde-48da-a283-22e166a9a8bf</string>
+    <string name="Circular_Motion_Below_Nose">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/circular%20motion%20below%20nose.m4v?alt=media&amp;token=95d009cc-8e7c-4e0a-85e2-541d65e343b4</string>
+    <string name="Circular_Motion_on_Cheeks">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/circular%20motion%20on%20cheeks.m4v?alt=media&amp;token=534e7c36-d657-4e89-96b9-f205c14a0899</string>
+    <string name="Circular_Motion_on_Eye">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/circular%20motion%20on%20eye.m4v?alt=media&amp;token=6c87a5e4-e59a-4c7a-9c78-42714da53fd8</string>
+    <string name="Circular_Motion_on_Jawline_and_Lymph">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/circular%20motion%20on%20jawline%20and%20lymph.m4v?alt=media&amp;token=0a3c10e3-7307-4439-93a0-c727ef521ad2</string>
+    <string name="Circular_Motion_on_Neck">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/circular%20motion%20on%20neck.m4v?alt=media&amp;token=8f392eda-51d5-4038-b27f-d43bd523a040</string>
+    <string name="Circular_Motions">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/circular%20motions.m4v?alt=media&amp;token=5530f1f4-5609-4dca-9950-a58606796c77</string>
+    <string name="Crow_Feet_Preventer">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/crow%20feet%20preventer.m4v?alt=media&amp;token=16e502b8-4628-45d5-8494-0c8a23800d6c</string>
+    <string name="Dark_Circle_Remover">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/dark%20circle%20remover.m4v?alt=media&amp;token=86869b9f-1de9-4fe7-b21c-829e13199671</string>
+    <string name="Eye_De_Puffer">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/eye%20de-puffer.m4v?alt=media&amp;token=9e27de6b-3644-46a1-aff2-98d6e5564bbf</string>
+    <string name="Eyebrow_Smoother_Left_to_Right">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/eyebrow%20smoother%20left%20to%20right.m4v?alt=media&amp;token=9bd22d23-6d2b-4c13-93e2-8cc984c5d88f</string>
+    <string name="Eyebrow_Smoother_Right_to_Left">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/eyebrow%20smoother%20right%20to%20left.m4v?alt=media&amp;token=a653ea8c-3764-496d-94b3-36bcfa9489de</string>
+    <string name="Eyelid_Massage">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/eyelid%20massage.m4v?alt=media&amp;token=6f52c290-a06a-45aa-b8ff-8c075797db6c</string>
+    <string name="Flick_Your_Cheeks">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/flick%20your%20cheeks.m4v?alt=media&amp;token=669cc792-0a22-49bb-9e4e-0825b96758bc</string>
+    <string name="Forehead_Dab">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/forehead%20dab.m4v?alt=media&amp;token=e68a4138-c2dc-4a47-8374-00fa70c1e2a1</string>
+    <string name="Forehead_Massage">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/forehead%20massage.m4v?alt=media&amp;token=a1f060aa-85ee-4dbc-8bc7-c42b27bbd824</string>
+    <string name="Forehead_Massage_With_Fingers">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/forehead%20massage%20with%20fingers.m4v?alt=media&amp;token=7b70eead-340b-42f4-8ab7-2bd9ffb341c8</string>
+    <string name="Half_Circles">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/half%20circles.m4v?alt=media&amp;token=ea81da46-6ac4-4492-8db2-7727eab81b55</string>
+    <string name="Half_Neck_Rotation">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/half%20neck%20rotation.m4v?alt=media&amp;token=b830a995-b6cc-492e-91a9-49fad06d822b</string>
+    <string name="Hold_Pose">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/hold%20pose.m4v?alt=media&amp;token=87bd163c-e058-4141-85ca-58176bc7f91c</string>
+    <string name="Jaw_Massage">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/jaw%20massage.m4v?alt=media&amp;token=db40dc0b-511a-45a0-9bbe-d22a45f05195</string>
+    <string name="Jaw_Smoother">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/jaw%20smoother.m4v?alt=media&amp;token=3414559c-f3f1-40af-9421-f678dcf6af19</string>
+    <string name="Jawline_Massage">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/jawline%20massage.m4v?alt=media&amp;token=508b6e7d-281f-4acf-9a4e-9483f84f3337</string>
+    <string name="Jawline_Massage_With_Fist">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/jawline%20massage%20with%20fist.m4v?alt=media&amp;token=52b766a5-1e8b-4c30-8a60-b43766208cd0</string>
+    <string name="Jawline_Smoother_Left_to_Right">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/jawline%20smoother%20left%20to%20right.m4v?alt=media&amp;token=116e906b-6397-47de-b531-dddbe78fa276</string>
+    <string name="Jawline_Smoother_Right_to_Left">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/jawline%20smoother%20right%20to%20left.m4v?alt=media&amp;token=2c74ccf3-6f82-4267-820f-85d8e8afd3ee</string>
+    <string name="Kiss_the_Sky">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/kiss%20the%20sky.m4v?alt=media&amp;token=b05c9c62-6071-4e0b-900d-58c75492e36d</string>
+    <string name="Lip_Tuck">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/lip%20tuck.m4v?alt=media&amp;token=4d23f650-104c-4c79-a6ad-1c8297e342ee</string>
+    <string name="Massage_Your_Ears">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/massage%20your%20ears.m4v?alt=media&amp;token=e0d84a26-12fd-4d4c-9f31-42c87f4f8f81</string>
+    <string name="Massage_Your_Face">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/massage%20your%20face.m4v?alt=media&amp;token=e1199176-9e71-4e77-b309-5c2a67ce7d6b</string>
+    <string name="Massage_Your_Temples">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/massage%20your%20temples.m4v?alt=media&amp;token=ad83035c-4e95-4cea-b974-cdadee110f7c</string>
+    <string name="Neck_Massage">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/neck%20massage.m4v?alt=media&amp;token=cbfb1c77-216e-4741-8348-e8f2f0fa5ed3</string>
+    <string name="Neck_Massage_With_Fingers">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/neck%20massage%20with%20fingers.m4v?alt=media&amp;token=ce85bad6-9178-4a14-8659-e6dfb9318811</string>
+    <string name="Neck_Massage_With_Palms">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/neck%20massage%20with%20palms.m4v?alt=media&amp;token=b1eb9312-4459-41c3-bd93-46955b44426e</string>
+    <string name="Neck_Rotation">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/neck%20rotation.m4v?alt=media&amp;token=cc890d23-1382-4d3c-ad7d-b53ab376df82</string>
+    <string name="Neck_Warmer">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/neck%20warmer.m4v?alt=media&amp;token=5b6d26a5-8e0c-4da6-a04e-217859245aaa</string>
+    <string name="Neck_to_Jawline">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/neck%20to%20jawline.m4v?alt=media&amp;token=73574b77-cd3e-438f-ba85-d960e483a086</string>
+    <string name="One_Sided_Upward_Strokes">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/one%20sided%20upward%20strokes.m4v?alt=media&amp;token=42daa813-afbe-44b2-b3f0-b76fb4fa17f2</string>
+    <string name="Pinch_Across_the_Eyebrows">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/pinch%20across%20the%20eyebrows.m4v?alt=media&amp;token=7b8d3523-3e91-495c-81d2-1b1f869adebd</string>
+    <string name="Pinch_Inner_Edge_of_Eyebrows">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/pinch%20inner%20edge%20of%20eyebrows.m4v?alt=media&amp;token=4f38c8a4-ca28-4687-b845-4bfeb5caf75c</string>
+    <string name="Pinch_Your_Lips">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/pinch%20your%20lips.m4v?alt=media&amp;token=21e87e37-ce84-418e-ac10-e4796a5d264e</string>
+    <string name="Pinch_the_Neck">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/pinch%20the%20neck.m4v?alt=media&amp;token=b5b80601-09f7-420e-ad5d-13c49b759d8e</string>
+    <string name="Pinches_on_Jawline">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/pinches%20on%20jawline.m4v?alt=media&amp;token=031a1041-999f-4afb-9e93-482615601ccd</string>
+    <string name="Pout_Pose">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/pout%20pose.m4v?alt=media&amp;token=9f40ee02-8773-4680-a6e5-376c3e067d8a</string>
+    <string name="Press_Above_the_Nose">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/press%20above%20the%20nose.m4v?alt=media&amp;token=c544b9d1-9e69-421d-b1be-fbbaa48503a7</string>
+    <string name="Press_Down_on_Lymph">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/press%20down%20on%20lymph.m4v?alt=media&amp;token=443b0a7d-c23d-4ce0-9889-d12661c51476</string>
+    <string name="Puff_Up">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/puff%20up.m4v?alt=media&amp;token=198c9220-934a-4d2d-ae73-bd3b0854b41c</string>
+    <string name="Reduce_Laughing_Lines">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/reduce%20laughing%20lines.m4v?alt=media&amp;token=aba62dc2-ac04-462f-bb1f-c1a86dbc6527</string>
+    <string name="Side_of_the_Neck">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/side%20of%20the%20neck.m4v?alt=media&amp;token=527bb866-5e21-42d6-a3c0-dde4d776b1a6</string>
+    <string name="Smooth_Around_the_Mouth">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/smooth%20around%20the%20mouth.m4v?alt=media&amp;token=b739642b-b097-41e6-895e-28180c65aee0</string>
+    <string name="Smooth_Out_Eyebrow">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/smooth%20out%20eyebrow.m4v?alt=media&amp;token=29223d8d-92b4-415a-81ee-dfcd72c1ab7c</string>
+    <string name="Smooth_Out_Smile_Lines">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/smooth%20out%20smile%20lines.m4v?alt=media&amp;token=a7d3f019-cb9b-4fb0-955c-e68e63a9ba2a</string>
+    <string name="Smooth_Over_the_Forehead">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/smooth%20over%20the%20forehead.m4v?alt=media&amp;token=b97c566e-ed7f-4cfe-b2ce-dd3eba003dfc</string>
+    <string name="Smooth_Up_Dark_Circles">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/smooth%20up%20dark%20circles.m4v?alt=media&amp;token=8154ff96-80ff-4a51-a210-66a78a821703</string>
+    <string name="Smooth_Up_Frown_Lines">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/smooth%20up%20frown%20lines.m4v?alt=media&amp;token=16894c4b-3a92-4d8b-94a5-a5ab96937c67</string>
+    <string name="Smooth_Your_Cheeks">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/smooth%20your%20cheeks.m4v?alt=media&amp;token=f1683758-1236-4fd9-9429-5eb4728db1a4</string>
+    <string name="Squint_and_Release_Your_Eyes">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/squint%20and%20release%20your%20eyes.m4v?alt=media&amp;token=26b979a6-9b5f-4f72-8e05-be1c35d003b9</string>
+    <string name="Stretch_Pose">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/stretch%20pose.m4v?alt=media&amp;token=556f4864-4bbb-4c1e-b50e-f2a11fb46b21</string>
+    <string name="Suction_Cup_With_Palms">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/suction%20cup%20with%20palms.m4v?alt=media&amp;token=07a3050a-5c8b-4a38-9eb3-91837eb3ed1d</string>
+    <string name="Surprise_Me">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/surprise%20me.m4v?alt=media&amp;token=564c4677-b492-4cf3-a570-bd53519ed326</string>
+    <string name="Tap_Around_the_Eyes">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/tap%20around%20the%20eyes.m4v?alt=media&amp;token=5f905bf5-3aa3-4fce-8151-5bb6e9c9346b</string>
+    <string name="Tap_Around_the_Face">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/tap%20around%20the%20face.m4v?alt=media&amp;token=403ca367-4017-4c37-b65f-0ff996e6a395</string>
+    <string name="Tap_It">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/tap%20it.m4v?alt=media&amp;token=1fc3f5b7-8cf8-47e1-8430-256dd6a5586e</string>
+    <string name="Tap_Over_the_Neck_and_Face">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/tap%20over%20the%20neck%20and%20face.m4v?alt=media&amp;token=11137a41-9410-4d1e-960b-2673bded44d8</string>
+    <string name="Tap_Your_Forehead">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/tap%20your%20forehead.m4v?alt=media&amp;token=890dcd18-071f-4b86-b784-cee40a01f52c</string>
+    <string name="Tap_on_the_Cheeks">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/tap%20on%20the%20cheeks.m4v?alt=media&amp;token=58b0b6ea-87ae-41fe-b756-d6dcafaadff9</string>
+    <string name="The_Eyebrow_Lift">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/the%20eyebrow%20lift.m4v?alt=media&amp;token=e0a4e3e1-cd1e-484c-ba5e-e0dccc52c943</string>
+    <string name="The_Forehead_Lift">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/the%20forehead%20lift.m4v?alt=media&amp;token=39984868-f884-4597-bcd3-684282a48f0b</string>
+    <string name="The_Owl">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/the%20owl.m4v?alt=media&amp;token=527d28c1-09dd-407d-bca3-614283ecbf88</string>
+    <string name="The_Thirsty_Girl">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/the%20thirsty%20girl.m4v?alt=media&amp;token=a43a52f6-8e6f-4ef3-ad58-c09f42a320f2</string>
+    <string name="Up_and_Down">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/up%20and%20down.m4v?alt=media&amp;token=ac5070a5-9c62-42e9-b4f7-19e4aa8b86a9</string>
+    <string name="Upward_Strokes">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/upward%20strokes.m4v?alt=media&amp;token=0cf91551-b552-48a2-9a7d-d9984e6ffe73</string>
+    <string name="V_Forehead_Pose">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/v%20forehead%20pose.m4v?alt=media&amp;token=7da91a3a-1389-4a52-8218-47cd09d6d709</string>
+    <string name="V_Point_Pose">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/v%20point%20pose.m4v?alt=media&amp;token=cec7b747-9875-4d34-a33f-3ca32559ac6f</string>
+    <string name="V_Pose_With_Eye_Lift">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/v%20pose%20with%20eye%20lift.m4v?alt=media&amp;token=757bb1c0-9156-461a-b738-73fc04e5ef06</string>
+    <string name="Warm_Up_the_Face">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/warm%20up%20the%20face.m4v?alt=media&amp;token=f1405c59-7e8e-42f1-8de8-85cb6166a4dd</string>
+    <string name="Zigzag_on_Forehead_Horizontal">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/zigzag%20on%20forehead%20horizontal.m4v?alt=media&amp;token=ad8f389d-7c1f-4b55-906a-22a851f6b1c7</string>
+    <string name="Zigzag_on_Forehead_Vertical">https://firebasestorage.googleapis.com/v0/b/face-yoga-app-89f4a.appspot.com/o/zigzag%20on%20forehead%20vertical.m4v?alt=media&amp;token=1f37693c-c10d-4a55-9315-c3f7ad59d648</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="androidx_startup">androidx.startup</string>
+    <string name="anti_aging_face_yoga">Anti Aging Face Yoga</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="before_bed_face_yoga">Before Bed Face Yoga</string>
+    <string name="blowfish">Just like the name implies, keep your mouth closed and fill your cheeks up with as much air as possible. \n\nHold the position for a full minute if you can. \n\nSlowly release the air by blowing out.</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+
+    <string name="brow_smoother">Brow Smoother</string>
+    <string name="calendar">Calendar</string>
+
+    <string name="cheekSculptor">Purse your lips together and smile like you’re putting on blush. \n\nPlace your fingers on either side of your mouth under the apples of your cheeks. \n\nSlide your fingers up so you’re lifting your cheeks, and hold for 30 seconds.</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <string name="creating_your_personal_program">Creating your personal program</string>
+    <string name="default_web_client_id">440748478555-p8rvo0ij12nj43qrf6rpsqmprjs9iu7m.apps.googleusercontent.com</string>
+    <string name="demo_article_body">You might think that its all about the sun. How it dries your hair and makes it straw like and fragile. But that doesnt mean you can neglect your winter hair care routine. \10You might think that its all about the sun. How it dries your hair and makes it straw like and fragile. But that doesnt mean you can neglect your winter hair care routine. \n\n\10You might think that its all about the sun. How it dries your hair and makes it straw like and fragile. But that doesnt mean you can neglect your winter hair care routine.</string>
+    <string name="eleven_minute_face_yoga">11-Minute Face Yoga</string>
+
+    <string name="eye_circles">Eye Circles</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="faceYogaDescription">Face yoga involves massage and exercises that stimulate the muscles, skin, and lymphatic system. This technique is designed to soften and relax your face muscles to help alleviate tension, stress, and worry.</string>
+    <string name="face_tapping">Face Tapping</string>
+    <string name="face_yoga_for_glowing_skin">Glowing Skin</string>
+    <string name="face_yoga_to_reduce_wrinkles">Reduce Wrinkles</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="firmUpSoggyCheeks">Press down on your cheekbones in a cupping shape with your palms. \n\nMake your mouth into an O and press your tongue to the roof of your mouth. \n\nHold this pose, Relax then Repeat.</string>
+    <string name="forHorizontalWrinkles">Place both of your hands on your forehead, facing inward. \n\nSpread your fingers out between your eyebrows and hairline. \n\nGently sweep your fingers up and back, applying light pressure. \n\nRelax and repeat.</string>
+    <string name="full_face_yoga_routine">Full Face Yoga Routine</string>
+
+    <string name="getting_ready_textview">Getting ready...</string>
+    <string name="good_morning_face_yoga">Good Morning Face Yoga</string>
+
+    <string name="gua_sha_massage">Gua-Sha Massage</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hugTheForehead">Put your hands on your forehead above the eyebrows. \n\nRaise and lower the eyebrows while keeping your hand on your forehead.</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="jaw_unlocker">JawLine</string>
+    <string name="jowlBuster">Place your chin on the back of your hand and push upwards. \n\nHold for three deep breaths, relax and repeat. \n\nThen using the back of your hands, tap under your chin.</string>
+    <string name="lionPose">Drop your jaw and open your mouth wide. \n\nStick out your tongue and stretch it downward toward your chin. \n\nBreathe through your mouth and make a sound in your throat like a lion’s roar.</string>
+    <string name="lipTuck">Place your both index fingers on the both cheeks. \n\nThen lift your index finger. \n\nRepeat.</string>
+
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="nav_app_bar_navigate_up_description">Navigate up</string>
+    <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="neck_massage">Neck Massage</string>
+    <string name="next">Go to next</string>
+    <string name="one_month_subscription">1 MONTH</string>
+    <string name="one_week_subscription">1 WEEK</string>
+    <string name="openDrawer">Open Drawer</string>
+
+    <string name="project_id">face-yoga-app-89f4a</string>
+    <string name="relaxYourEyeMuscles">Place your fingers above and below your eyes, making a “V” shape. \n\nYour eyes should be between your middle and ring fingers, your middle fingers should rest right on your eyebrows, and your thumbs should be placed in the hair behind your ears. \n\nGently stretch the skin around your eyes, up and down, by lifting your eyebrows and lowering your jawbones with your fingers.</string>
+    <string name="remove_double_chin">Remove Double Chin</string>
+    <string name="search_menu_title">Search</string>
+    <string name="searchbar_scrolling_view_behavior">com.google.android.material.search.SearchBar$ScrollingViewBehavior</string>
+
+    <string name="sharpenYourNose">Make loose fists with your hands and place them above your upper lip so that your index fingers are right below your nostrils. \n\nGently stretch the skin under your nose down.</string>
+    <string name="side_sheet_behavior">com.google.android.material.sidesheet.SideSheetBehavior</string>
+    <string name="smoothOutSmileLines">Press on the side of your face with one hand to add pressure into the blown cheek. \n\nCover your mouth while doing it so that you don\'t blow raspberries in the middle of practising face yoga. \n\nRepeat and relaxing your cheeks in between each set.</string>
+    <string name="smoothTransitionOfTheNoseToCheeks">Place your index fingers along the nose. \n\nWrinkle your nose by widening the nostrils. \n\nAt the same time, keep your lips still. \n\nIndividually select the correct location of the finger, depending on the place of formation of wrinkles around the nose. \n\nRepeat.</string>
+    <string name="softer_forehead_lines">Softer Forehead Lines</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="subscription_description">After confirming your subscription payment will be charged to Google Play Store Account. The subscription renews automatically at the end of each period, until you canceled. To avoid being charged, cancel the subscription in your Google Play Store account setting at least 24 hours before the end of trial or the current subscription period. If you are unsure how to cancel a subscription, please visit the Google support website.</string>
+    <string name="surpriseMe">Focus on a point on the horizon for five to ten seconds.Repeat.</string>
+    <string name="tension_relief_face_yoga">Tension Relief Face Yoga</string>
+    <string name="theEyebrowLift">Place your index finger on the top of the eyebrow. \n\nThen lift your index finger. \n\nRepeat.</string>
+    <string name="theHandyFaceLift">Place the both of your palm on the side of your face. \n\nThen lift your palm up and down. \n\nRepeat.</string>
+    <string name="theOwl">Make large C shapes with your thumbs and index fingers and place them on your face around your eyes.</string>
+    <string name="tightenYourEyeArea">Hold out three fingers starting from the index and place it on your eyebrow. \n\nCover both corners of your brow with your fingers and lift gently. \n\nHold this for five seconds and relax.</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_best_food_for_healthy_and_glowing_skin">The Best Food For Healthy &amp; Glowing Skin</string>
+    <string name="title_can_face_yoga_improve_your_appearance">Can Face Yoga Improve Your Appearance?</string>
+    <string name="title_does_face_yoga_actually_works">Does Face Yoga Actually Works?</string>
+    <string name="title_does_your_face_need_a_workout">Does Your Face Need a Workout?</string>
+    <string name="title_face_yoga_and_its_benefits">Face Yoga &amp; Its Benefits</string>
+    <string name="toughKiss">Keep your lips as if you are about to kiss. \n\nThen relax and retract them, pressing as close to the teeth as possible. \n\nHold your lips in each position.</string>
+    <string name="wrinklesRelaxer">Trace your brows with your index fingers and thumbs, pulling them apart until you get to the outer edges. \n\nHold this tension then relax and repeat.</string>
+    <string name="yearly_subscription">12 MONTHS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="morning">Start your day with Morning Face Yoga, a natural way to refresh your skin, reduce puffiness, and enhance circulation for a youthful glow. These gentle exercises help tone facial muscles, relieve tension, and promote relaxation.</string>
+    <string name="morning_result_one">Enhances natural facial glow </string>
+    <string name="morning_result_two">Reduces double chin and firms jawline</string>
+
+
+    <string name="tension_relief">Tension relief face yoga helps relax facial muscles, reduce stress, and release built-up tension from daily activities. These gentle exercises improve blood circulation, ease jaw and forehead tightness, and promote a calm, refreshed feeling.</string>
+    <string name="tension_relief_result_one">Relieves facial tension and stress 😊</string>
+    <string name="tension_relief_result_two">Reduces jaw tightness and forehead wrinkles ✨</string>
+
+    <string name="before_bed">Before bed face yoga helps relax facial muscles, release stress, and prepare your skin for overnight rejuvenation.</string>
+    <string name="before_bed_result_one">Relaxes facial muscles for a peaceful sleep 😌✨</string>
+    <string name="before_bed_result_two">Reduces puffiness and promotes overnight skin repair 🌙💆‍♀️</string>
+
+
+    <string name="glowing_skin">Face yoga for glowing skin boosts blood circulation, enhances oxygen flow, and stimulates collagen production, giving your face a natural radiance. These exercises help reduce dullness, improve skin elasticity, and promote a youthful, healthy glow. </string>
+    <string name="glowing_skin_result_one">Enhances natural skin glow and radiance ✨😊</string>
+    <string name="glowing_skin_result_two">Improves blood circulation for a fresh and youthful look 💆‍♀️🌿</string>
+
+
+    <string name="anti_aging">Yoga for an antiaging face helps tone the muscles of the face, increase the production of collagen, and lessen the visibility of wrinkles and fine lines. These workouts encourage a firm, youthful complexion, increase skin elasticity, and lift drooping areas. You can attain naturally refreshed and healthier-looking skin with consistent practice.</string>
+    <string name="anti_aging_result_one">Reduces fine lines and wrinkles for a youthful look ✨😊</string>
+    <string name="anti_aging_result_two">Firms and lifts the skin, improving elasticity 💆‍♀️🌿</string>
+
+
+    <string name="face_tappingdes">A straightforward yet powerful method for increasing blood flow, decreasing puffiness, and fostering a young glow is face tapping yoga. This technique helps reduce stress, increase skin suppleness, and improve facial tone by tapping particular parts of the face.</string>
+    <string name="face_tapping_result_one">Reduces puffiness and promotes a fresh, awake appearance ✨😊</string>
+    <string name="face_tapping_result_two">Eases facial tension, helping you feel relaxed and rejuvenated 🌿💖</string>
+
+
+    <string name="reduce_wrinkles">Face yoga targets the muscles and skin to reduce fine lines and wrinkles, enhance skin elasticity, and promote a youthful, firm appearance. With consistent practice, you\'ll notice smoother, more radiant skin.</string>
+    <string name="reduce_wrinkles_result_one">Reduces wrinkles and fine lines, leaving the skin smoother and more youthful. ✨</string>
+    <string name="reduce_wrinkles_result_two">Firms and lifts the skin, improving elasticity and promoting a glowing complexion. 🌟</string>
+
+    <string name="eleven_minute">This 11-minute facial yoga practice incorporates chin smoothing, puffing up, upward strokes, cheek flicking, ear massage, and methods for minimizing dark circles and laugh lines. Frequent use improves facial tone generally, supports a young appearance, and revitalizes the skin.</string>
+    <string name="eleven_minute_result_one">minimizes dark circles and puffiness, leaving the skin radiant and renewed. ✨</string>
+    <string name="eleven_minute_result_two">Tones and firms the muscles of the face, encouraging a Younger looking complexion 🌟</string>
+
+    <string name="gua_sha">Gua Sha is an ancient technique that uses a smooth stone to gently scrape the skin, promoting circulation and relieving tension. It helps lift and sculpt the face, reducing puffiness, fine lines, and promoting a more radiant complexion.</string>
+    <string name="gua_sha_result_one">Reduces puffiness and enhances skin tone for a lifted, sculpted look. ✨</string>
+    <string name="gua_sha_result_two">Stimulates collagen production, smoothing fine lines and promoting a youthful glow. 🌟</string>
+
+    <string name="softening_forehead_lines">Facial exercises and techniques targeting the forehead help relax tension, improve circulation, and promote smoother skin. Regular practice softens the appearance of forehead lines, leaving the skin smoother and more youthful.</string>
+    <string name="softening_forehead_lines_result_one">Softens forehead lines for smoother skin. ✨</string>
+    <string name="softening_forehead_lines_result_two">Improves elasticity for a lifted look. 🌟</string>
+
+    <string name="eye_circle_yoga">By focusing on the muscles surrounding the eyes, eye circle yoga helps to relieve tension, puffiness, and dark circles, giving the illusion of more young vitality.</string>
+    <string name="eye_circle_yoga_result_one">Reduces dark circles and puffiness around the eyes. ✨</string>
+    <string name="eye_circle_yoga_result_two">Relieves tension and rejuvenates the eye area. 🌟</string>
+
+    <string name="brow_smoother_des">In order to reduce stress and smooth out frown lines and provide the appearance of a more lifted and refreshed appearance, brow smoother yoga helps tone and relax the muscles surrounding the eyebrows.</string>
+    <string name="brow_smoother_result_one">Smoothens the brow region and reduces frown wrinkles. ✨</string>
+    <string name="brow_smoother_result_two">Makes the brows appear more youthful by lifting and relaxing them. 🌟</string>
+
+    <string name="jawline">Jaw unlocker yoga helps tone the jawline, lessen clenching, and release tension in the jaw muscles, all of which contribute to a more relaxed and defined appearance.</string>
+    <string name="jawline_result_one">Relieves clenching and jaw stress. ✨</string>
+    <string name="jawline_result_two">Gives the jawline definition and tone for a sculpted appearance. 🌟</string>
+
+    <string name="double_chin">Say goodbye to that stubborn double chin! This quick yoga routine targets the muscles under your chin to tone and tighten, helping you achieve a smoother, more defined neckline. With regular practice, you\'ll notice a slimmer, more sculpted profile.</string>
+    <string name="double_chin_result_one">Smoothens and tightens the chin area for a more defined jawline. ✨</string>
+    <string name="double_chin_result_two">Reduces the appearance of a double chin for a slimmer, sculpted look. 🌟</string>
+
+
+    <string name="neck_massage_des">Gentle lymphatic massage techniques are used in this course to improve circulation, aiding in detoxification and reducing puffiness for a clearer, healthier.</string>
+    <string name="neck_massage_des_result_one">Improves Circulation and detoxification. ✨</string>
+    <string name="neck_massage_des_result_two">Reduces neck puffiness 🌟</string>
+
+
+    <string name="face_yoga_routine">Face yoga is a natural way to tone facial muscles, boost circulation, and enhance skin elasticity. With simple exercises, you can reduce wrinkles, lift sagging areas, and achieve a fresh, glowing complexion—all without invasive treatments!</string>
+    <string name="face_yoga_routine_result_one">Improves Circulation and detoxification. ✨</string>
+    <string name="face_yoga_routine_result_two">Reduces neck puffiness 🌟</string>
+
+
+    <string name="progress">Progress</string>
+    <string name="progressdes">Each Step Shows Your Progress</string>
+    <string name="article">Article</string>
+    <string name="articledes">Glow with Effective Face Advice</string>
+    <string name="categories">Categories</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="comfort_is_the_enemy_of_the_success">Comfort Is the enemy \nof the success</string>
+
+
+    <string name="cheek_lift">Cheek face yoga helps tone and sculpt your cheeks, giving them a naturally lifted and youthful look. By targeting facial muscles, it enhances elasticity, reduces sagging, and promotes a healthy, radiant glow.</string>
+    <string name="cheek_lift_result_one">Lifts and firms the cheeks for a youthful, sculpted look. ✨</string>
+    <string name="cheek_lift_result_two">Enhances cheekbone definition and skin elasticity. 🌟</string>
+
+    <string name="eye_lift">Cheek face yoga helps tone and sculpt your cheeks, giving them a naturally lifted and youthful look. By targeting facial muscles, it enhances elasticity, reduces sagging, and promotes a healthy, radiant glow.</string>
+    <string name="eye_lift_result_one">Lifts and firms the cheeks for a youthful, sculpted look. ✨</string>
+    <string name="eye_lift_result_two">Enhances cheekbone definition and skin elasticity. 🌟</string>
+    <string name="cheeks_yoga">Cheeks Yoga</string>
+    <string name="eyes_yoga">Eyes Yoga</string>
+    <string name="settings">Setting</string>
+    <string name="share_app">Share App</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about_app">About</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="skip" translatable="false">Skip</string>
+    <string name="no_internet" translatable="false">No Internet connection found. Check your Connection or try again.</string>
+    <string name="try_again" translatable="false">Try again</string>
+    <string name="about_text">Jawline Exercises - Face yoga app is a treat for you whether you want to reduce face fat, tighten your skin, reduce wrinkles, remove double chin and much more for your daily skin care. Facial exercises help you achieve a more radiant with simple face massage. Toned and improve complexion while promoting relaxation and face care. Join us on a journey to discover the transformative results of facial yoga both inside and out.\n\nFace yoga workout offers a wide range of face yoga exercises that can affect both your physical appearance and overall well-being.</string>
+    <string name="text1">Face Yoga</string>
+    <string name="text2">Healthy Facial Tone Without \nAny Rashes</string>
+    <!--    <string name="des1">“Forget Surgery and get younger \n<br>\n</br>naturally”.-->
+    <!--       \n<br/>\n<br/>-Anastasia the author of a unique methodology and your personal face yoga trainer.</string>-->
+    <string name="des2">By increasing blood circulation and the flow of oxygen to the cells.</string>
+    <string name="des3">"The facial muscles are much smaller and thinner, so they are easier to train. "</string>
+    <string name="text3">Quick Result</string>
+    <string name="des4">Exercise does not require special tools just a phone and fingertips.</string>
+    <string name="text4">Author\'s Method</string>
+
+    <string name="des1">"Forget Surgery And Get Younger \nNaturally".\n\n- Anastasia The Author Of A Unique Methodology And Your Personal Face Yoga Trainer.</string>
+
+
+</resources>

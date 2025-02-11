@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="progressColor">#D9D9D9</color>
+    <color name="startscreen_color">#747474</color>
+
+    <color name="bottomNavigationBackground">#ffffff</color>
+    <color name="selectedColor">#000000</color>
+    <color name="unselectedColor">#969191</color>
+    <color name="cardShadowColor">#3D000000</color>
+
+    <color name="recyclerViewTextColor">#232d36</color>
+    <color name="colorAccent">#f18eaf</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorError">#ff4081</color>
+    <color name="colorGreen">#0eba70</color>
+    <color name="colorGrey">#487e7e7e</color>
+    <color name="colorGreyBackground">#232d36</color>
+    <color name="colorLoading">#287cf6</color>
+    <color name="colorOrange">#fd9149</color>
+    <color name="colorPrimary">#C65F9D</color>
+    <color name="colorPink">#E5A8CD</color>
+    <color name="border_light">#EFF3FF</color>
+    <color name="text_light">#959BAE</color>
+    <color name="colorPrimary30PercentOpacity">#4de42c6a</color>
+    <color name="colorPrimaryDark">#C65F9D</color>
+    <color name="colorPrimaryWithOpacity">#33e42c6a</color>
+    <color name="colorPurple">#a257ef</color>
+    <color name="colorPurpleAnimation">#a32cc4</color>
+    <color name="colorRed">#ed2939</color>
+    <color name="colorText">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="color_arrow">#000000</color>
+    <color name="foreground_color_black_with_more_opacity">#59000000</color>
+    <color name="foreground_color_black_with_opacity">#1a000000</color>
+    <color name="videoStatusBarColor">#A6B9B3</color>
+    <color name="calenderBackground">@color/colorPrimary30PercentOpacity</color>
+    <color name="rating">#FFC70A</color>
+</resources>

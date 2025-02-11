@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".FourthQuestionActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_circle_left" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="10dp"
+
+
+
+            android:layout_toRightOf="@+id/iv_close"
+            android:src="@drawable/skintype" />
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/sceenTypeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_toolbar"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="32dp"
+        android:fontFamily="@font/semibold"
+        android:text="Choose your Skin Type"
+        android:textAlignment="center"
+        android:textColor="@color/recyclerViewTextColor"
+        android:textSize="22dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sceenTypeTextView"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="32dp"
+        android:fontFamily="@font/regular"
+        android:text="Knowing your skin type will help us better understand your needs and develop a more accurate training plan"
+        android:textAlignment="center"
+        android:textColor="@color/startscreen_color"
+        android:textSize="14dp" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_description"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNormal"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="6dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ripple_effect_button_with_stroke"
+                android:fontFamily="@font/medium"
+                android:gravity="center"
+                android:text="Normal"
+                android:textAllCaps="false"
+                android:textColor="@color/text_light" />
+
+            <TextView
+                android:id="@+id/tvOily"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="6dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ripple_effect_button_with_stroke"
+                android:fontFamily="@font/medium"
+                android:gravity="center"
+                android:text="Oily"
+                android:textAllCaps="false"
+                android:textColor="@color/text_light" />
+
+            <TextView
+                android:id="@+id/tvSensitive"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="6dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ripple_effect_button_with_stroke"
+                android:fontFamily="@font/medium"
+                android:gravity="center"
+                android:text="Sensitive"
+                android:textAllCaps="false"
+                android:textColor="@color/text_light" />
+
+
+            <TextView
+                android:id="@+id/tvDry"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="6dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ripple_effect_button_with_stroke"
+                android:fontFamily="@font/medium"
+                android:gravity="center"
+                android:text="Dry"
+                android:textAllCaps="false"
+                android:textColor="@color/text_light" />
+
+            <TextView
+                android:id="@+id/tvCombination"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="6dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ripple_effect_button_with_stroke"
+                android:fontFamily="@font/medium"
+                android:gravity="center"
+                android:onClick="toggleCombinationSelection"
+                android:text="Combination"
+                android:textAllCaps="false"
+                android:textColor="@color/text_light" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSkinType"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/ripple_effect_button"
+        android:fontFamily="@font/medium"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>

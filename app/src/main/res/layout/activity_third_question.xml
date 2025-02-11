@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ThirdQuestionActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_circle_left" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="10dp"
+            android:layout_toRightOf="@+id/iv_close"
+            android:src="@drawable/focuson" />
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/areasToCoverTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_toolbar"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="32dp"
+        android:fontFamily="@font/semibold"
+        android:text="What Area Of The Dace Would You Like To Focus On?"
+        android:textAlignment="center"
+        android:textColor="@color/recyclerViewTextColor"
+        android:textSize="22dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnContinueFocus"
+        android:layout_below="@+id/areasToCoverTextView"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/facePartImageView"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/women_vector_four" />
+
+
+        <LinearLayout
+            android:id="@+id/facePartsSelectionLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+                android:id="@+id/themedToggleButtonGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:alignItems="center"
+                app:flexDirection="column"
+                app:flexWrap="wrap"
+                app:justifyContent="center"
+                app:toggle_horizontalSpacing="8dp"
+                app:toggle_requiredAmount="1"
+                app:toggle_selectableAmount="6">
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/forehead"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_multiselect"
+                    app:toggle_backgroundColor="@android:color/transparent"
+                    app:toggle_btnCornerRadius="14dp"
+                    app:toggle_paddingHorizontal="16dp"
+                    app:toggle_selectedBackgroundColor="@android:color/transparent"
+                    app:toggle_selectedTextColor="@color/colorPink"
+                    app:toggle_text="Forehead"
+                    app:toggle_textSize="17dp" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/eyes"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_multiselect"
+                    app:toggle_backgroundColor="@android:color/transparent"
+                    app:toggle_btnCornerRadius="14dp"
+                    app:toggle_paddingHorizontal="16dp"
+                    app:toggle_selectedBackgroundColor="@android:color/transparent"
+                    app:toggle_selectedTextColor="@color/colorPink"
+                    app:toggle_text="Eyes"
+                    app:toggle_textSize="17dp" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/mouth"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_multiselect"
+                    app:toggle_backgroundColor="@android:color/transparent"
+                    app:toggle_btnCornerRadius="14dp"
+                    app:toggle_paddingHorizontal="16dp"
+                    app:toggle_selectedBackgroundColor="@android:color/transparent"
+                    app:toggle_selectedTextColor="@color/colorPink"
+                    app:toggle_text="Mouth"
+                    app:toggle_textSize="17dp" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/cheeks"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_multiselect"
+                    app:toggle_backgroundColor="@android:color/transparent"
+                    app:toggle_btnCornerRadius="14dp"
+                    app:toggle_paddingHorizontal="16dp"
+                    app:toggle_selectedBackgroundColor="@android:color/transparent"
+                    app:toggle_selectedTextColor="@color/colorPink"
+                    app:toggle_text="Cheeks"
+                    app:toggle_textSize="17dp" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/chin"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_multiselect"
+                    app:toggle_backgroundColor="@android:color/transparent"
+                    app:toggle_btnCornerRadius="14dp"
+                    app:toggle_paddingHorizontal="16dp"
+                    app:toggle_selectedBackgroundColor="@android:color/transparent"
+                    app:toggle_selectedTextColor="@color/colorPink"
+                    app:toggle_text="Chin"
+                    app:toggle_textSize="17dp" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/neck"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_multiselect"
+                    app:toggle_backgroundColor="@android:color/transparent"
+                    app:toggle_btnCornerRadius="14dp"
+                    app:toggle_paddingHorizontal="16dp"
+                    app:toggle_selectAnimation="fade"
+                    app:toggle_selectedBackgroundColor="@android:color/transparent"
+                    app:toggle_selectedTextColor="@color/colorPink"
+                    app:toggle_text="Neck"
+                    app:toggle_textSize="17dp" />
+            </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnContinueFocus"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/ripple_effect_button"
+        android:fontFamily="@font/medium"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

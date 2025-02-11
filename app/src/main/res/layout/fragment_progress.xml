@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:paddingBottom="20dp"
+        app:mcv_arrowColor="@color/colorPrimary"
+        app:mcv_calendarMode="week"
+        app:mcv_dateTextAppearance="@style/QTheme"
+        app:mcv_headerTextAppearance="@style/QThemeHeader"
+        app:mcv_selectionColor="@color/colorPrimary"
+        app:mcv_showOtherDates="7"
+        app:mcv_weekDayTextAppearance="@style/QTheme" />
+    <!--    </androidx.cardview.widget.CardView>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/calendarView"
+        android:layout_marginTop="20dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/progressImageView"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/Circular"
+                app:srcCompat="@drawable/iv_defaltcapture" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/progressImageView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/totalWorkoutDayNumbersTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/medium"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/totalWorkoutDaysTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/totalWorkoutDayNumbersTV"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/medium"
+                    android:text="Total Workout Days"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/recyclerViewTextColor"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
