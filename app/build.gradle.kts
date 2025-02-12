@@ -17,41 +17,41 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro")
+//    buildTypes {
+//        release {
+//            isMinifyEnabled = false
+//            proguardFiles(
+//                getDefaultProguardFile("proguard-android-optimize.txt"),
+//                "proguard-rules.pro")
+//        }
+//    }
+
+    signingConfigs {
+        create("release") {
+            storeFile = file("D:\\FaceYoga\\app\\faceyoga.jks")
+            storePassword = "Prince@9313"
+            keyAlias = "key0"
+            keyPassword = "Prince@9313"
         }
     }
 
-//    signingConfigs {
-//        create("release") {
-//            storeFile = file("D:\\Multiple Email Login\\app\\multipleemaillogin.jks")
-//            storePassword = "Prince@9313"
-//            keyAlias = "key0"
-//            keyPassword = "Prince@9313"
-//        }
-//    }
-//
-//    buildTypes {
-//        getByName("debug") {
-//            manifestPlaceholders["crashlyticsCollectionEnabled"] = "false"
-//        }
-//        getByName("release") {
-//            isMinifyEnabled = true
-//            proguardFiles(
-//                getDefaultProguardFile("proguard-android-optimize.txt"),
-//                "proguard-rules.pro"
-//            )
-//            signingConfig = signingConfigs.getByName("release")
-//            manifestPlaceholders["crashlyticsCollectionEnabled"] = "true"
-//            ndk {
-//                debugSymbolLevel = "FULL"
-//            }
-//        }
-//    }
+    buildTypes {
+        getByName("debug") {
+            manifestPlaceholders["crashlyticsCollectionEnabled"] = "false"
+        }
+        getByName("release") {
+            isMinifyEnabled = true
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+            signingConfig = signingConfigs.getByName("release")
+            manifestPlaceholders["crashlyticsCollectionEnabled"] = "true"
+            ndk {
+                debugSymbolLevel = "FULL"
+            }
+        }
+    }
 
 
     compileOptions {
@@ -69,7 +69,6 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
 
-//    implementation ("com.github.carlosmuvi:SegmentedProgressBar:0.8.3")
     implementation ("com.carlosmuvi.segmentedprogressbar:library:0.2")
     implementation ("androidx.work:work-runtime:2.7.1")
     implementation("com.squareup.okhttp3:okhttp:4.10.0")

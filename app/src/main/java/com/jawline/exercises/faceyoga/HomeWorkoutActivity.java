@@ -149,7 +149,7 @@ public class HomeWorkoutActivity extends AppCompatActivity {
         this.workoutContainer = (RelativeLayout) findViewById(R.id.workoutLinearLayout);
         this.restWorkoutLayout = (RelativeLayout) findViewById(R.id.restWorkoutRelativeLayout);
         this.workoutCompleteLayout = (RelativeLayout) findViewById(R.id.doneExerciseRelativeLayout);
-        this.tvStepCounterhome =  findViewById(R.id.tvStepCounterhome);
+        this.tvStepCounterhome = findViewById(R.id.tvStepCounterhome);
 
 
         findViewById(R.id.iv_close).setOnClickListener(view -> {
@@ -286,7 +286,6 @@ public class HomeWorkoutActivity extends AppCompatActivity {
         }
     }
 
-
     public final void proceedToNextWorkout() {
         Log.d("WorkoutPremium", "doExercise: ");
         this.playPauseButton.setImageResource(R.drawable.pause_icon);
@@ -347,7 +346,7 @@ public class HomeWorkoutActivity extends AppCompatActivity {
             this.videoLoadingIndicator.setMax(i9);
 
             // Update tvStepCounter to show current step
-            tvStepCounterhome.setText((int) progressTime + 1 + " / " + totalWorkoutCount);
+            tvStepCounterhome.setText("Steps" + (int) progressTime + 1 + " / " + totalWorkoutCount);
 
             ResetCountdownTimer resetCountdownTimer = new ResetCountdownTimer(j9);
             this.restCountdownTimer = resetCountdownTimer;
@@ -400,10 +399,11 @@ public class HomeWorkoutActivity extends AppCompatActivity {
                     .streamFor(300, 5000L);
 
             konfettiView.invalidate();
-            SharedPreferences sharedPreferences = getSharedPreferences("Challenge Workout Day Of Premium", 0);
+
+            SharedPreferences sharedPreferences2 = getSharedPreferences("Challenge Workout Day Of Premium", 0);
             int i11 = this.selectedWorkoutDay;
             if (i11 != -1) {
-                SharedPreferences.Editor edit = sharedPreferences.edit();
+                SharedPreferences.Editor edit = sharedPreferences2.edit();
                 (i11 < 30 ? edit.putInt("WorkoutChallengeName", this.selectedWorkoutDay + 1) : edit.putInt("WorkoutChallengeName", 1)).apply();
                 return;
             }
@@ -481,8 +481,14 @@ public class HomeWorkoutActivity extends AppCompatActivity {
         } catch (Exception e11) {
             e11.printStackTrace();
         }
-        startActivity(new Intent(this, MainActivity.class));
+//        startActivity(new Intent(this, MainActivity.class));
+//        finish();
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
         finish();
+
+
     }
 
     public void nextVideo(View view) {

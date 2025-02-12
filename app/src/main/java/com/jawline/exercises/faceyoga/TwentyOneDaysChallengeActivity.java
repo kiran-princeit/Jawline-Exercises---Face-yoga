@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -24,13 +25,11 @@ public class TwentyOneDaysChallengeActivity extends AppCompatActivity {
     public RecyclerView recyclerView;
     TextView tvSelectedShedule,tvTotalExercisesTime;
 
-    public LinearLayout dayOneLayout, dayTwoLayout, dayThreeLayout, dayFourLayout, dayFiveLayout,
-            daySixLayout, daySevenLayout, dayEightLayout, dayNineLayout, dayTenLayout,
-            dayElevenLayout, dayTwelveLayout, dayThirteenLayout, dayFourteenLayout,
-            dayFifteenLayout, daySixteenLayout, daySeventeenLayout, dayEighteenLayout,
-            dayNineteenLayout, dayTwentyLayout, dayTwentyOneLayout;
-    public LinearLayout[] daysArray;
+    TextView tvday1,tvday2,tvday3,tvday4,tvday5,tvday6,tvday7,tvday8,tvday9,tvday10,tvday11,tvday12,tvday13,tvday14,tvday15,tvday16,tvday17,tvday18,tvday19,tvday20,tvday21;
 
+    public LinearLayout dayOneLayout, dayTwoLayout, dayThreeLayout, dayFourLayout, dayFiveLayout, daySixLayout, daySevenLayout, dayEightLayout, dayNineLayout, dayTenLayout, dayElevenLayout, dayTwelveLayout, dayThirteenLayout, dayFourteenLayout, dayFifteenLayout, daySixteenLayout, daySeventeenLayout, dayEighteenLayout, dayNineteenLayout, dayTwentyLayout, dayTwentyOneLayout;
+    public LinearLayout[] daysArray;
+    public TextView[] dayTextViews;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +58,31 @@ public class TwentyOneDaysChallengeActivity extends AppCompatActivity {
         this.dayNineteenLayout = findViewById(R.id.day19);
         this.dayTwentyLayout = findViewById(R.id.day20);
         this.dayTwentyOneLayout = findViewById(R.id.day21);
+
+
+        this.tvday1 = findViewById(R.id.tvday1);
+        this.tvday2 = findViewById(R.id.tvday2);
+        this.tvday3 = findViewById(R.id.tvday3);
+        this.tvday4 = findViewById(R.id.tvday4);
+        this.tvday5 = findViewById(R.id.tvday5);
+        this.tvday6 = findViewById(R.id.tvday6);
+        this.tvday7 = findViewById(R.id.tvday7);
+        this.tvday8 = findViewById(R.id.tvday8);
+        this.tvday9 = findViewById(R.id.tvday9);
+        this.tvday10 = findViewById(R.id.tvday10);
+        this.tvday11 = findViewById(R.id.tvday11);
+        this.tvday12 = findViewById(R.id.tvday12);
+        this.tvday13 = findViewById(R.id.tvday13);
+        this.tvday14 = findViewById(R.id.tvday14);
+        this.tvday15 = findViewById(R.id.tvday15);
+        this.tvday16 = findViewById(R.id.tvday16);
+        this.tvday17 = findViewById(R.id.tvday17);
+        this.tvday18 = findViewById(R.id.tvday18);
+        this.tvday19 = findViewById(R.id.tvday19);
+        this.tvday20 = findViewById(R.id.tvday20);
+        this.tvday21 = findViewById(R.id.tvday21);
+
+
         recyclerView = findViewById(R.id.rv_twentyoneday);
         tvTotalExercisesTime = findViewById(R.id.tvTotalExercisesTime);
 
@@ -74,6 +98,14 @@ public class TwentyOneDaysChallengeActivity extends AppCompatActivity {
                 dayNineteenLayout, dayTwentyLayout, dayTwentyOneLayout
         };
 
+
+        this.dayTextViews = new TextView[] {
+                tvday1, tvday2, tvday3, tvday4, tvday5, tvday6, tvday7, tvday8,
+                tvday9, tvday10, tvday11, tvday12, tvday13, tvday14, tvday15,
+                tvday16, tvday17, tvday18, tvday19, tvday20, tvday21
+        };
+
+
         for (int i = 0; i < daysArray.length; i++) {
             final int day = i + 1;
             daysArray[i].setOnClickListener(view -> startExerciseForDay(day));
@@ -82,26 +114,26 @@ public class TwentyOneDaysChallengeActivity extends AppCompatActivity {
         tvSelectedShedule.setText(exerciseName);
         initializeExerciseData();
         startExerciseForDay(1);
-
     }
-
-//    public void startExerciseForDay(int day) {
-//        exerciseName = "Day " + day;
-//        tvSelectedShedule.setText(exerciseName);
-//        initializeExerciseData();
-//        updateRecyclerView();
-//    }
 
     public void startExerciseForDay(int day) {
         exerciseName = "Day " + day;
         tvSelectedShedule.setText(exerciseName);
-        initializeExerciseData(); // Initialize the exercises for the selected day
-
-        // Calculate total exercises and time for the selected day
+        initializeExerciseData();
         calculateTotalExercisesAndTime(exerciseDurations, tvTotalExercisesTime);
 
 
-        updateRecyclerView(); // Update the RecyclerView with the exercises
+        updateRecyclerView();
+
+        for (int i = 0; i < dayTextViews.length; i++) {
+            if (i == day - 1) {
+                dayTextViews[i].setBackgroundResource(R.drawable.round_pink);
+                dayTextViews[i].setTextColor(Color.WHITE);
+            } else {
+                dayTextViews[i].setBackgroundResource(R.drawable.default_background);
+                dayTextViews[i].setTextColor(Color.parseColor("#000000"));
+            }
+        }
     }
 
 
@@ -109,13 +141,11 @@ public class TwentyOneDaysChallengeActivity extends AppCompatActivity {
         int totalExercises = exerciseDurations.length;
         int totalTime = 0;
 
-        // Add up the duration for each exercise
         for (int duration : exerciseDurations) {
             totalTime += duration;
         }
         int totalTimeInMinutes = totalTime / 60;
         String totalExercisesText = String.format("%02d Exercise | %d min", totalExercises, totalTimeInMinutes);
-        // Set the total exercises and time in the TextViews
         totalExercisesTextView.setText(totalExercisesText);
     }
 

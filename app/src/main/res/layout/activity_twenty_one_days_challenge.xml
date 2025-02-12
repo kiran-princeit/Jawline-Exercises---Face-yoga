@@ -2,12 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:background="@color/white"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".TwentyOneDaysChallengeActivity"
-    android:layout_height="match_parent">
-
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".TwentyOneDaysChallengeActivity">
 
 
     <RelativeLayout
@@ -19,17 +18,17 @@
             android:id="@+id/iv_close"
             android:layout_width="30dp"
             android:layout_height="30dp"
+            android:layout_centerVertical="true"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
-            android:layout_centerVertical="true"
             android:src="@drawable/arrow_circle_left" />
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="start"
             android:layout_centerVertical="true"
+            android:layout_gravity="start"
             android:layout_toRightOf="@+id/iv_close"
             android:fontFamily="@font/medium"
             android:text="Full face yoga for 21 days"
@@ -43,8 +42,8 @@
         android:id="@+id/coordinatorLayoutExercisePremium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_below="@+id/toolbarChallenge">
+        android:layout_below="@+id/toolbarChallenge"
+        android:layout_marginTop="10dp">
 
         <HorizontalScrollView
             android:id="@+id/hScroolview"
@@ -83,21 +82,36 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
+                        <!--                        <TextView-->
+                        <!--                            android:id="@+id/tvday1"-->
+                        <!--                            android:layout_width="30dp"-->
+                        <!--                            android:layout_height="30dp"-->
+                        <!--                            android:background="@drawable/round_pink"-->
+                        <!--                            android:gravity="center"-->
+                        <!--                            android:text="01"-->
+                        <!--                            android:padding="5dp"-->
+                        <!--                            android:textColor="#FFFFFF"-->
+                        <!--                            android:textSize="14sp"-->
+                        <!--                            android:fontFamily="@font/regular"/>-->
+
+
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday1"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
+                            android:background="@drawable/round_pink"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="01"
-                            android:textColor="#585858"
+                            android:textColor="#FFFFFF"
                             android:textSize="12sp" />
 
                     </LinearLayout>
@@ -114,19 +128,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="02"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -144,18 +159,19 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="4dp"
+                            android:id="@+id/tvday3"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="03"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -175,19 +191,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday4"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="04"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -207,19 +224,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday5"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="05"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -239,19 +257,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday6"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="06"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -271,19 +290,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday7"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="07"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -303,19 +323,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday8"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="08"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -335,19 +356,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday9"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="09"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -367,19 +389,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday10"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="10"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -399,19 +422,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday11"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="11"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -431,19 +455,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday12"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="12"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -463,19 +488,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday13"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="13"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -495,19 +521,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday14"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="14"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -527,19 +554,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday15"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="15"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -559,19 +587,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday16"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="16"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -591,19 +620,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday17"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="17"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -624,19 +654,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday18"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="18"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -657,19 +688,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday19"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="19"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -690,19 +722,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday20"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="20"
                             android:textColor="#585858"
                             android:textSize="12sp" />
@@ -723,23 +756,23 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/medium"
+                            android:padding="5dp"
                             android:text="Day"
                             android:textColor="#585858"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/tvday21"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_gravity="start"
-                            android:layout_margin="4dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
+                            android:padding="5dp"
                             android:text="21"
                             android:textColor="#585858"
                             android:textSize="12sp" />
-
 
                     </LinearLayout>
                 </LinearLayout>
@@ -753,11 +786,11 @@
             android:layout_below="@+id/hScroolview"
             android:layout_marginTop="-18dp"
             android:layout_marginBottom="-32dp"
-            app:cardPreventCornerOverlap="false"
+            android:padding="5dp"
             app:cardBackgroundColor="@color/bottomNavigationBackground"
             app:cardCornerRadius="26dp"
-            android:padding="10dp"
-            app:cardElevation="80dp">
+            app:cardElevation="80dp"
+            app:cardPreventCornerOverlap="false">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -800,9 +833,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_below="@+id/tvTotalExercisesTime"
+                    android:layout_marginHorizontal="10dp"
                     android:background="@android:color/transparent"
                     android:clipToPadding="false"
-                    android:layout_marginHorizontal="10dp"
                     android:paddingBottom="70dp"
                     app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 

@@ -57,7 +57,7 @@ public class CaptureImageActivity extends AppCompatActivity implements View.OnCl
         captureButton.setVisibility(View.VISIBLE);
         previewView.setVisibility(View.VISIBLE);
 
-        startCamera(); // Start Front Camera
+        startCamera();
 
         imageCaptured = false;
     }
@@ -160,17 +160,11 @@ public class CaptureImageActivity extends AppCompatActivity implements View.OnCl
     }
     private void saveImagePath() {
         try {
-            // Use current time in milliseconds
             long timestamp = System.currentTimeMillis();
-
-            // Format the timestamp to date
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd", Locale.getDefault());
             String formattedDate = sdf.format(new Date(timestamp));
-
             SQLiteDatabase db = openOrCreateDatabase("ImagePathDatabase", MODE_PRIVATE, null);
             db.execSQL("CREATE TABLE IF NOT EXISTS imagePath (date VARCHAR, path VARCHAR)");
-
-            // Insert the formatted date and image path
             String insertQuery = "INSERT INTO imagePath (date, path) VALUES ('" + formattedDate + "', '" + imageFile.getAbsolutePath() + "')";
             db.execSQL(insertQuery);
             Log.d("Database Insert", "Image path inserted: " + imageFile.getAbsolutePath());

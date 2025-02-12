@@ -12,6 +12,7 @@ import android.Manifest;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -527,8 +528,6 @@ public class HomeScheduleActivity extends AppCompatActivity {
             }
         }
     }
-
-
 
 
     @Override
@@ -1217,4 +1216,17 @@ public class HomeScheduleActivity extends AppCompatActivity {
         super.onBackPressed();
         finish();
     }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        // Increment the day only when the workout is completed
+        SharedPreferences sharedPreferences = getSharedPreferences("Challenge Workout Day Of Premium", MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        int workoutDay = sharedPreferences.getInt("WorkoutChallengeName", 1);
+
+        editor.putInt("WorkoutChallengeName", workoutDay + 1);
+        editor.apply();
+    }
+
 }

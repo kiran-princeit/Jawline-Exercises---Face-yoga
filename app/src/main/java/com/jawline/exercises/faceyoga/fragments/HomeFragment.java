@@ -1,6 +1,8 @@
 package com.jawline.exercises.faceyoga.fragments;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,6 +24,8 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     String description = "";
     String result1 = "";
     String result2 = "";
+    private SharedPreferences sharedPreferences;
+    private SharedPreferences.Editor editor;
 
     public AppCompatImageView fullFaceYogaImage, tensionReliefImage, goodMorningYogaImage, beforeBedYogaImage, elevenMinYogaImage, reduceWrinklesYogaImage, antiAgingYogaImage, faceTappingYogaImage, glowingSkinYogaImage, guaShaMassageImage;
 
@@ -33,6 +37,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.fragment_home, container, false);
+
+        sharedPreferences = rootView.getContext().getSharedPreferences("Challenge Workout Day Of Premium", Context.MODE_PRIVATE);
+        editor = sharedPreferences.edit();
 
 
         fullFaceYogaTextView = rootView.findViewById(R.id.fullFaceYogaRoutineTextView);
@@ -47,7 +54,6 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         faceTappingYogaImage = rootView.findViewById(R.id.faceTappingImageView);
         glowingSkinYogaImage = rootView.findViewById(R.id.faceYogaForGlowingSkinImageView);
         guaShaMassageImage = rootView.findViewById(R.id.guaShaMassageImageView);
-
 
         rootView.findViewById(R.id.softerForeheadLinesCardView).setOnClickListener(this);
         rootView.findViewById(R.id.eyeCirclesCardView).setOnClickListener(this);
@@ -66,11 +72,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         rootView.findViewById(R.id.guaShaMassageCardView).setOnClickListener(this);
         rootView.findViewById(R.id.faceYogaForGlowingSkinCardView).setOnClickListener(this);
 
-        workoutDay = this.rootView.getContext().getSharedPreferences("Challenge Workout Day Of", 0).getInt("WorkoutChallengeName", 1);
-//        workoutDay++;
+        workoutDay = sharedPreferences.getInt("WorkoutChallengeName", 1);
         workoutRoutine = "Full Face Yoga Routine Day ";
-        fullFaceYogaTextView.setText("Day" + Integer.toString(workoutDay));
-
+        fullFaceYogaTextView.setText("Day " + workoutDay);
 
         rootView.findViewById(R.id.fullFaceYogaRoutineCardView).setOnClickListener(view -> {
             HomeFragment.this.imageResource = R.drawable.iv_yoga_routinday;
@@ -86,12 +90,8 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
             intent.putExtra("result1", result1);
             intent.putExtra("result2", result2);
             HomeFragment.this.startActivity(intent);
+
         });
-
-
-
-
-
         return rootView;
     }
 
@@ -100,10 +100,6 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         String routineName = (String) view.getTag();
         openWorkoutSchedulePremium(routineName);
     }
-
-
-
-
 
     public void openWorkoutSchedulePremium(String routineName) {
         switch (routineName) {

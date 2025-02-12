@@ -354,8 +354,6 @@ public class WorkoutActivity extends AppCompatActivity {
         ivExerciseImage.setImageResource(exerciseImages[currentExerciseIndex]);
         tvExerciseName.setText(exerciseNames[currentExerciseIndex]);
         tvTotalTime.setText(String.valueOf(exerciseDurations[currentExerciseIndex]));
-
-        // Update step counter
         int stepNumber = currentExerciseIndex + 1;
         int totalSteps = exerciseNames.length;
         tvStepCounter.setText("Steps " + String.format("%02d", stepNumber) + " / " + totalSteps);
@@ -363,8 +361,6 @@ public class WorkoutActivity extends AppCompatActivity {
         textToSpeech.speak(currentExerciseName, TextToSpeech.QUEUE_FLUSH, speechParams, null);
         textToSpeech.speak(exerciseDurations[currentExerciseIndex] + " Seconds", TextToSpeech.QUEUE_ADD, speechParams, null);
         textToSpeech.speak(getExerciseDescription(currentExerciseName), TextToSpeech.QUEUE_ADD, speechParams, null);
-
-        // Start Timer
         countdownTimer = new WorkoutTimer(exerciseDurations[currentExerciseIndex] * 1000L);
         countdownTimer.start();
     }
